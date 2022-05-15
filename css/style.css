@@ -1,0 +1,133 @@
+body {
+  background-color: #e45776;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-image: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png);
+  height: 125vh;
+}
+
+.secao1 {
+  display: flex;
+  margin: 0px;
+}
+
+.secao1 img {
+  width: 45%;
+  margin-left: 5%;
+}
+
+.secao1 p {
+  margin-right: 10%;
+  font-size: 19px;
+  color: #f11075;
+  font-weight: bold;
+}
+
+.inicio {
+  justify-content: space-between;
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  padding: 3% 0 1% 0;
+  align-items: center;
+  height: auto;
+}
+
+.anuncio {
+  color: #fff;
+  width: 90%;
+  margin-top: 6%;
+}
+
+.secao2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: inline;
+}
+
+h2 {
+  margin-top: 2%;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: lighter;
+}
+
+.secao3 {
+  display: flex;
+  justify-content: center;
+  margin: 1% 6% 0 6%;
+}
+
+.containerbranco {
+  padding: 5% 2% 5% 0;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.containerbranco div {
+  width: 90%;
+  margin: 2%;
+}
+
+.containerbranco p {
+  width: 100%;
+  font-weight: bold;
+  color: #424242;
+}
+
+.containerbranco input {
+  height: 10%;
+  width: 95%;
+  border-radius: 5px;
+  border-color: #8080803d;
+  padding: 3%;
+  color: grey;
+}
+
+button {
+  font-size: 15px;
+  font-weight: lighter;
+  color: #fff;
+  border-radius: 8px;
+  background-color: #f11075;
+  border-color: #ad1457;
+  border: 1px;
+  width: 90%;
+  padding: 4%;
+  margin-top: 3%;
+}
+
+footer {
+  height: 8%;
+  position: fixed;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+ul {
+  color: grey;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 0px;
+}
