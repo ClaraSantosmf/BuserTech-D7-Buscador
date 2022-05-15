@@ -119,7 +119,7 @@ footer {
   width: 100%;
 }
 
-ul {
+.footer-div {
   color: grey;
   height: 100%;
   justify-content: space-around;
@@ -128,6 +128,14 @@ ul {
   list-style-type: none;
 }
 
-li {
+.footer-div div {
+  justify-content: center;
+  display: flex;
   margin: 0px;
+  flex-wrap: wrap;
+}
+
+footer img {
+  justify-content: center;
+  width: 1.5rem;
 }
